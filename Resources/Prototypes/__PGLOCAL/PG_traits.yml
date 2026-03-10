@@ -1,0 +1,381 @@
+- type: traitCategory
+  id: PGSpecial
+  name: trait-category-PGSpecial
+
+- type: trait
+  id: PGManyFreePointsTrait
+  name: trait-PGcheatpoint-name
+  description: trait-PGcheatpoint-desc
+  category: HorizonNegative
+  cost: -99
+
+- type: trait
+  id: PGTraitMoreSpeed
+  name: trait-pg-morespeed-name
+  description: trait-pg-morespeed-desc
+  category: HorizonPositive
+  cost: 8
+  effects:
+  - !type:ModifySpeed
+    sprintModifier: 1.13
+
+- type: trait
+  id: CyberArmReaperLeft
+  name: trait-cyber-arm-reaper-name2
+  description: trait-cyber-arm-reaper-desc2
+  category: HorizonPositive
+  group: TraitArm2
+  cost: 2
+  effects:
+    - !type:ModifyBodyParts
+      partType: Hand
+      symmetry: Left
+      protoId: LeftHandCyber
+      slotId: left hand
+      parentPartType: Arm
+    - !type:ModifyBodyParts
+      partType: Arm
+      symmetry: Left
+      protoId: LeftArmCyberReaper
+      slotId: Left arm
+
+- type: trait
+  id: CyberArmMechwrightLeft
+  name: trait-cyber-arm-mechwright-name2
+  description: trait-cyber-arm-mechwright-desc2
+  category: HorizonPositive
+  group: TraitArm2
+  cost: 2
+  effects:
+    - !type:ModifyBodyParts
+      partType: Hand
+      symmetry: Left
+      protoId: LeftHandCyber
+      slotId: left hand
+      parentPartType: Arm
+    - !type:ModifyBodyParts
+      partType: Arm
+      symmetry: Left
+      protoId: LeftArmCyberMechwright
+      slotId: left arm
+
+- type: trait
+  id: CyberArmEngiLeft
+  name: trait-cyber-arm-engi-name2
+  description: trait-cyber-arm-engi-desc2
+  category: HorizonPositive
+  group: TraitArm2
+  cost: 5
+  effects:
+    - !type:ModifyBodyParts
+      partType: Hand
+      symmetry: Left
+      protoId: LeftHandCyber
+      slotId: left hand
+      parentPartType: Arm
+    - !type:ModifyBodyParts
+      partType: Arm
+      symmetry: Left
+      protoId: LeftArmCyberEngi
+      slotId: left arm
+
+- type: trait
+  id: CyberArmAtmosLeft
+  name: trait-cyber-arm-atmos-name2
+  description: trait-cyber-arm-atmos-desc2
+  category: HorizonPositive
+  group: TraitArm2
+  cost: 2
+  effects:
+    - !type:ModifyBodyParts
+      partType: Hand
+      symmetry: Left
+      protoId: LeftHandCyber
+      slotId: left hand
+      parentPartType: Arm
+    - !type:ModifyBodyParts
+      partType: Arm
+      symmetry: Left
+      protoId: LeftArmCyberAtmos
+      slotId: left arm
+
+- type: trait
+  id: CyberArmAstroLeft
+  name: trait-cyber-arm-astro-name2
+  description: trait-cyber-arm-astro-desc2
+  category: HorizonPositive
+  group: TraitArm2
+  cost: 2
+  effects:
+    - !type:ModifyBodyParts
+      partType: Hand
+      symmetry: Left
+      protoId: LeftHandCyber
+      slotId: left hand
+      parentPartType: Arm
+    - !type:ModifyBodyParts
+      partType: Arm
+      symmetry: Left
+      protoId: LeftArmCyberAstro
+      slotId: left arm
+
+- type: trait
+  id: CyberArmGardenLeft
+  name: trait-cyber-arm-garden-name2
+  description: trait-cyber-arm-garden-desc2
+  category: HorizonPositive
+  group: TraitArm2
+  cost: 2
+  effects:
+    - !type:ModifyBodyParts
+      partType: Hand
+      symmetry: Left
+      protoId: LeftHandCyber
+      slotId: left hand
+      parentPartType: Arm
+    - !type:ModifyBodyParts
+      partType: Arm
+      symmetry: Left
+      protoId: LeftArmCyberGarden
+      slotId: left arm
+
+# Basic Combat Arms - Shotgun Sawn
+- type: trait
+  id: CyberArmWeaponShotgunSawnLeft
+  name: trait-cyber-arm-weapon-shotgun-sawn-name2
+  description: trait-cyber-arm-weapon-shotgun-sawn-desc2
+  category: HorizonPositive
+  group: TraitArm2
+  cost: 3
+  effects:
+    - !type:ModifyBodyParts
+      partType: Hand
+      symmetry: Left
+      protoId: LeftHandCyber
+      slotId: left hand
+      parentPartType: Arm
+    - !type:ModifyBodyParts
+      partType: Arm
+      symmetry: Left
+      protoId: LeftArmProtoCyberWeaponShotgunSawn
+      slotId: left arm
+
+- type: trait
+  id: CyberArmWeaponEnergyPistolLaserLeft
+  name: trait-cyber-arm-weapon-energy-pistol-laser-name2
+  description: trait-cyber-arm-weapon-energy-pistol-laser-desc2
+  category: HorizonPositive
+  group: TraitArm2
+  cost: 3
+  effects:
+    - !type:ModifyBodyParts
+      partType: Hand
+      symmetry: Left
+      protoId: LeftHandCyber
+      slotId: left hand
+      parentPartType: Arm
+    - !type:ModifyBodyParts
+      partType: Arm
+      symmetry: Left
+      protoId: LeftArmProtoCyberWeaponEnergyPistolLaser
+      slotId: left arm
+
+- type: trait
+  id: CyberArmWeaponPkaSawnLeft
+  name: trait-cyber-arm-weapon-pka-sawn-name2
+  description: trait-cyber-arm-weapon-pka-sawn-desc2
+  category: HorizonPositive
+  group: TraitArm2
+  cost: 3
+  effects:
+    - !type:ModifyBodyParts
+      partType: Hand
+      symmetry: Left
+      protoId: LeftHandCyber
+      slotId: left hand
+      parentPartType: Arm
+    - !type:ModifyBodyParts
+      partType: Arm
+      symmetry: Left
+      protoId: LeftArmProtoCyberWeaponPkaSawn
+      slotId: left arm
+
+- type: trait
+  id: CyberArmWeaponEnergyPistolDisablerLeft
+  name: trait-cyber-arm-weapon-energy-pistol-disabler-name2
+  description: trait-cyber-arm-weapon-energy-pistol-disabler-desc2
+  category: HorizonPositive
+  group: TraitArm2
+  cost: 3
+  effects:
+    - !type:ModifyBodyParts
+      partType: Hand
+      symmetry: Left
+      protoId: LeftHandCyber
+      slotId: left hand
+      parentPartType: Arm
+    - !type:ModifyBodyParts
+      partType: Arm
+      symmetry: Left
+      protoId: LeftArmProtoCyberWeaponEnergyPistolDisabler
+      slotId: left arm
+
+- type: trait
+  id: CyberArmWeaponProtoKineticAcceleratorLeft
+  name: trait-cyber-arm-weapon-proto-kinetic-accelerator-name2
+  description: trait-cyber-arm-weapon-proto-kinetic-accelerator-desc2
+  category: HorizonPositive
+  group: TraitArm2
+  cost: 7
+  effects:
+    - !type:ModifyBodyParts
+      partType: Hand
+      symmetry: Left
+      protoId: LeftHandCyber
+      slotId: left hand
+      parentPartType: Arm
+    - !type:ModifyBodyParts
+      partType: Arm
+      symmetry: Left
+      protoId: LeftArmCyberWeaponProtoKineticAccelerator
+      slotId: left arm
+
+- type: trait
+  id: CyberArmWeaponEnergySmgDisablerLeft
+  name: trait-cyber-arm-weapon-energy-smg-disabler-name2
+  description: trait-cyber-arm-weapon-energy-smg-disabler-desc2
+  category: HorizonPositive
+  group: TraitArm2
+  cost: 7
+  effects:
+    - !type:ModifyBodyParts
+      partType: Hand
+      symmetry: Left
+      protoId: LeftHandCyber
+      slotId: left hand
+      parentPartType: Arm
+    - !type:ModifyBodyParts
+      partType: Arm
+      symmetry: Left
+      protoId: LeftArmCyberWeaponEnergySubMachineGunDisabler
+      slotId: left arm
+
+- type: trait
+  id: CyberArmWeaponEnergyPistolLaserAdvancedLeft
+  name: trait-cyber-arm-weapon-energy-pistol-laser-advanced-name2
+  description: trait-cyber-arm-weapon-energy-pistol-laser-advanced-desc2
+  category: HorizonPositive
+  group: TraitArm2
+  cost: 7
+  effects:
+    - !type:ModifyBodyParts
+      partType: Hand
+      symmetry: Left
+      protoId: LeftHandCyber
+      slotId: left hand
+      parentPartType: Arm
+    - !type:ModifyBodyParts
+      partType: Arm
+      symmetry: Left
+      protoId: LeftArmCyberWeaponEnergyPistolLaserAdvanced
+      slotId: left arm
+
+- type: trait
+  id: CyberArmWeaponShotgunAdvancedLeft
+  name: trait-cyber-arm-weapon-shotgun-advanced-name2
+  description: trait-cyber-arm-weapon-shotgun-advanced-desc2
+  category: HorizonPositive
+  group: TraitArm2
+  cost: 7
+  effects:
+    - !type:ModifyBodyParts
+      partType: Hand
+      symmetry: Left
+      protoId: LeftHandCyber
+      slotId: left hand
+      parentPartType: Arm
+    - !type:ModifyBodyParts
+      partType: Arm
+      symmetry: Left
+      protoId: LeftArmCyberWeaponShotgunAdvanced
+      slotId: left arm
+
+- type: trait
+  id: CyberArmClawRendingLeft
+  name: trait-cyber-arm-claw-rending-name2
+  description: trait-cyber-arm-claw-rending-desc2
+  category: HorizonPositive
+  group: TraitArm2
+  cost: 7
+  effects:
+    - !type:ModifyBodyParts
+      partType: Hand
+      symmetry: Left
+      protoId: LeftHandCyber
+      slotId: left hand
+      parentPartType: Arm
+    - !type:ModifyBodyParts
+      partType: Arm
+      symmetry: Left
+      protoId: LeftArmCyberClawRending
+      slotId: left arm
+
+- type: trait
+  id: CyberArmClawPiersingLeft
+  name: trait-cyber-arm-claw-piercing-name2
+  description: trait-cyber-arm-claw-piercing-desc2
+  category: HorizonPositive
+  group: TraitArm2
+  cost: 7
+  effects:
+    - !type:ModifyBodyParts
+      partType: Hand
+      symmetry: Left
+      protoId: LeftHandCyber
+      slotId: left hand
+      parentPartType: Arm
+    - !type:ModifyBodyParts
+      partType: Arm
+      symmetry: Left
+      protoId: LeftArmCyberClawPiercing
+      slotId: left arm
+
+- type: trait
+  id: CyberArmClawPoisonLeft
+  name: trait-cyber-arm-claw-poison-name2
+  description: trait-cyber-arm-claw-poison-desc2
+  category: HorizonPositive
+  group: TraitArm2
+  cost: 7
+  effects:
+    - !type:ModifyBodyParts
+      partType: Hand
+      symmetry: Left
+      protoId: LeftHandCyber
+      slotId: left hand
+      parentPartType: Arm
+    - !type:ModifyBodyParts
+      partType: Arm
+      symmetry: Left
+      protoId: LeftArmCyberClawPoison
+      slotId: left arm
+
+- type: trait
+  id: CyberArmLashLeft
+  name: trait-cyber-arm-lash-name2
+  description: trait-cyber-arm-lash-desc2
+  category: HorizonPositive
+  group: TraitArm2
+  cost: 7
+  effects:
+    - !type:ModifyBodyParts
+      partType: Hand
+      symmetry: Left
+      protoId: LeftHandCyber
+      slotId: left hand
+      parentPartType: Arm
+    - !type:ModifyBodyParts
+      partType: Arm
+      symmetry: Left
+      protoId: LeftArmCyberLash
+      slotId: left arm
